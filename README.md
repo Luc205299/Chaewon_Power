@@ -1,4 +1,4 @@
-# Chaewon Script
+# Chaewon PowerShell
 
 ## Description
 
