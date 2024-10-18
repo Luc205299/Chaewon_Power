@@ -2,7 +2,9 @@
 
 ## Description
 
-Just Because Chaewon 
+Just Because Chaewon
++200 pictures 
+
 ## Prerequisites
 
 - Windows PowerShell
