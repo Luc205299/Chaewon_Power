@@ -3,6 +3,9 @@
 ## Description
 
 Just Because Chaewon
+
+
+
 +200 pictures 
 
 ## Prerequisites
@@ -35,7 +38,8 @@ Just Because Chaewon
 To run the script:
 
 1. Double-click on `chaewon.bat`.
-2. A terminal will open and execute the PowerShell script. Press any key to continue after execution.
+2. A terminal will open and execute the PowerShell script. 
+3. Press any key to stop it.
 
 ## Notes
 
