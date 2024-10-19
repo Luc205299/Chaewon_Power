@@ -58,7 +58,10 @@ function Get-Chaewon {
         
         $global:form.Show()
 
-        if($images  -eq 'Spam.jpg'){
+        Write-Host "Image displayed: '$($randomImage.FullName)'" 
+
+
+        if($randomImage.FullName  -eq 'C:\Users\......\Chae\Spam.jpg'){   #Insert your path to the folder
             Get-Spam-Chaewon -folderPath $folderPath
         }
     } else {
@@ -110,7 +113,7 @@ function Get-Spam-Chaewon {
             $form.Controls.Add($pictureBox)
             $form.ClientSize = $image.Size
 
-
+            # Use Show() instead of ShowDialog() to keep the script running
             $form.Show()
         }
     } else {
@@ -127,7 +130,7 @@ function Close-Chaewon {
     }
 }
 
-# Start by displaying the first image
+#Main
 Get-Chaewon -folderPath $folderPath
 
 # Loop to display a new image every second and close the previous one
