@@ -6,7 +6,6 @@ function Get-Chaewon {
     )
     $images = Get-ChildItem -Path $folderPath -File
     Write-Host "Looking for nice pictures in '$folderPath'..."
-    Write-Host "'$($images.Count)' images found."
 
     # Load the image
     if ($images) {
@@ -57,8 +56,6 @@ function Get-Chaewon {
         $global:form.ClientSize = $image.Size
         
         $global:form.Show()
-
-        Write-Host "Image displayed: '$($randomImage.FullName)'" 
 
 
         if($randomImage.FullName  -eq 'C:\Users\......\Chae\Spam.jpg'){   #Insert your path to the folder
