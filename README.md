@@ -16,12 +16,19 @@ Just Because Chaewon
 
 ## To make it as .bat
 
-1. **Download the PowerShell script** `chaewon.ps1` and place it in a folder of your choice.
-2. **Modify the path in the batch file**:
-   - Open the `chaewon.bat` file in a text editor.
-   - Replace `C:\Users\....\chaewon.ps1` with the path where you saved `chaewon.ps1`.
+1. **Create a .txt file and write**
 
-3. **Save the file** as `chaewon.bat`.
+
+`@echo off`
+
+
+`"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -ExecutionPolicy Bypass -File "C:\Users\....\chaewon.ps1"`
+
+
+`pause`
+
+2. **Save it and change the extension to .bat**:
+
 
 ## Usage
 
