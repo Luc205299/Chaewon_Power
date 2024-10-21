@@ -110,7 +110,6 @@ function Get-Spam-Chaewon {
             $form.Controls.Add($pictureBox)
             $form.ClientSize = $image.Size
 
-            # Use Show() instead of ShowDialog() to keep the script running
             $form.Show()
         }
     } else {
