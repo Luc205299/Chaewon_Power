@@ -81,7 +81,7 @@ function Get-Spam-Chaewon {
         Add-Type -AssemblyName System.Drawing
 
         while($true) {
-            Start-Sleep -Seconds 1
+            Start-Sleep -Milliseconds 100
             $randomImage = $images | Get-Random
             $form = New-Object Windows.Forms.Form
             $form.Text = "Chaewon Spam <3 $i"
@@ -112,6 +112,7 @@ function Get-Spam-Chaewon {
 
             $form.Show()
         }
+    
     } else {
         Write-Host "No images found in '$folderPath'."
     }
