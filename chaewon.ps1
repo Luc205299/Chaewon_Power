@@ -1,4 +1,4 @@
-$folderPath = "..../Chae" #Insert your path to the folder
+$folderPath = "Chae" #Insert your path to the folder
 
 function Get-Chaewon {
     param (
